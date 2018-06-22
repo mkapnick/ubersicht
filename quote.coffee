@@ -3,7 +3,7 @@ command: 'curl -s "http://feeds.feedburner.com/brainyquote/QUOTEBR"'
 refreshFrequency: 30000
 
 style: """
-  top: 7px
+  bottom: 7px
   left: 30px
   -webkit-font-smoothing: antialiased
   color: #fff

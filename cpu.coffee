@@ -11,6 +11,6 @@ style: """
   font: 12px Iosevka Term
   font-weight: 500;
   right: 105px
-  top: 12px
+  bottom: 12px
 
 """

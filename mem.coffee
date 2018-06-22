@@ -7,7 +7,7 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  top: 12px
+  bottom: 12px
   color: #fff
   font: 12px Iosevka Term
   font-weight: 500;

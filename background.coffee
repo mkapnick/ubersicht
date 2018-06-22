@@ -3,13 +3,13 @@ command: "echo ",
 refreshFrequency: 8000000,
 
 style: """
-  background-color: #262626;
+  background-color: #000;
   display: block;
   position: absolute;
   height: 28px;
-  top: 5px;
+  bottom: 5px;
   right: 0px;
-  bottom: auto;
+  top: auto;
   left: 0px;
   margin-top: 0px;
   margin-right: 27px;

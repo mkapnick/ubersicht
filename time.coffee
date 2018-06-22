@@ -9,7 +9,7 @@ render: -> """
 style: """
   width: 50%
   left: 25%
-  top: 12px
+  bottom: 12px
   -webkit-font-smoothing: antialiased
   text-align: center
   color: #ffffff
