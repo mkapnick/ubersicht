@@ -4,19 +4,20 @@ refreshFrequency: 150000 # ms
 
 render: (output) ->
   if output > 50
-    "bat <span style='color:#a1b470'>#{output}%</span>"  # f6c98c = yellow
+    "battery <span style='color:#a1b470'>#{output}%</span>"  # f6c98c = yellow
   else if output < 51 && output > 15
-    "bat <span style='color:#f6c98c'>#{output}%</span>"  # a94744 = red
+    "battery <span style='color:#f6c98c'>#{output}%</span>"  # a94744 = red
   else
-    "bat <span style='color:#a94744'>#{output}%</span>"  # a1b470 = green
+    "battery <span style='color:#a94744'>#{output}%</span>"  # a1b470 = green
 
 style: """
   -webkit-font-smoothing: antialiased
-  font: 11px Iosevka Term
-  bottom: 8px
-  left: 1295px
+  font: 12px Iosevka Term
+  font-weight: 500;
+  bottom: 12px
+  right: 170px
   position: absolute
-  color: #d8d8d8
+  color: #ffffff
   span
-    color: #d8d8d8
+    color: #ffffff
 """
