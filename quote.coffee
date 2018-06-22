@@ -3,21 +3,18 @@ command: 'curl -s "http://feeds.feedburner.com/brainyquote/QUOTEBR"'
 refreshFrequency: 30000
 
 style: """
-  bottom: 0px
-  right: 0px
+  top: 7px
+  left: 30px
+  -webkit-font-smoothing: antialiased
   color: #fff
-  font-family: Helvetica Neue
-
+  font: 12px Iosevka Term
+  font-weight: 500;
 
   .output
     padding: 5px 10px
     width: 300px
-    font-size: 20px
-    font-weight: lighter
 
   .author, .example, .example-meaning
-    text-transform: capitalize
-    font-size: 14px
   .author
     text-align: right
 """
@@ -39,4 +36,4 @@ update: (output, domEl) ->
 
  # Find the info we need, and inject it into the DOM.
   dom.find('.quote').html $xml.find('description').eq(2)
-  dom.find('.author').html $xml.find('title').eq(2)
+  # dom.find('.author').html $xml.find('title').eq(2)
