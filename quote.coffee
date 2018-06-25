@@ -6,7 +6,7 @@ style: """
   bottom: 7px
   left: 30px
   -webkit-font-smoothing: antialiased
-  color: #fff
+  color: #00FF00
   font: 12px Iosevka Term
   font-weight: 500;
 

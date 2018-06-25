@@ -6,8 +6,8 @@ style: """
   background-color: #000;
   display: block;
   position: absolute;
-  height: 28px;
-  bottom: 5px;
+  height: 20px;
+  bottom: 8px;
   right: 0px;
   top: auto;
   left: 0px;

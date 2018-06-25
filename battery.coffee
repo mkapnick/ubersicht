@@ -17,7 +17,5 @@ style: """
   bottom: 12px
   right: 170px
   position: absolute
-  color: #ffffff
-  span
-    color: #ffffff
+  color: #00FF00
 """

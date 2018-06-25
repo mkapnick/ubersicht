@@ -12,7 +12,7 @@ style: """
   bottom: 12px
   -webkit-font-smoothing: antialiased
   text-align: center
-  color: #ffffff
+  color: #00FF00
   font: 12px Iosevka Term
   font-weight: 500;
   overflow: hidden
