@@ -9,13 +9,14 @@ render: -> """
 style: """
   width: 50%
   left: 25%
-  bottom: 12px
+  bottom: 7px
   -webkit-font-smoothing: antialiased
   text-align: center
-  color: #00FF00
-  font: 12px Iosevka Term
-  font-weight: 500;
+  color: #fff;
+  font-family: 'Helvetica'
+  font-size: 14px
   overflow: hidden
+  font-weight: 500;
   text-overflow: ellipsis
 """
 

@@ -3,23 +3,18 @@ command: "echo ",
 refreshFrequency: 8000000,
 
 style: """
-  background-color: #000;
+  background-color: rgba(48, 48, 48, 1)
   display: block;
   position: absolute;
-  height: 20px;
-  bottom: 8px;
+  height: 31px;
+  bottom: 0px;
   right: 0px;
   top: auto;
   left: 0px;
   margin-top: 0px;
-  margin-right: 27px;
   margin-bottom: 0px;
-  margin-left: 27px;
   opacity: 1;
   z-index: -1;
-  box-shadow: 0px 4px 10px 4px rgba(0,0,0,0.15);
-  border-top-left-radius: 2px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border-bottom-left-radius: 2px;
+  -webkit-box-shadow: 0px 2px 5px 0 #000000
+  box-shadow: 0px 2px 5px 0 #000000
 """

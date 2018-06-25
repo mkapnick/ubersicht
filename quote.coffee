@@ -3,16 +3,16 @@ command: 'curl -s "http://feeds.feedburner.com/brainyquote/QUOTEBR"'
 refreshFrequency: 30000
 
 style: """
-  bottom: 7px
-  left: 30px
+  bottom: 1px
+  left: 10px
   -webkit-font-smoothing: antialiased
-  color: #00FF00
-  font: 12px Iosevka Term
-  font-weight: 500;
+  color: #fff;
+  font-size: 14px
+  font-family: 'Helvetica'
 
   .output
     padding: 5px 10px
-    width: 300px
+    width: 600px
 
   .author, .example, .example-meaning
   .author

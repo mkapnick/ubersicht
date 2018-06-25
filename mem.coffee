@@ -7,10 +7,11 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  bottom: 12px
-  color: #00FF00
-  font: 12px Iosevka Term
+  bottom: 7px
+  color: #fff;
+  font-family: 'Helvetica'
+  font-size: 14px
   font-weight: 500;
-  right: 40px;
+  right: 31px;
   position: absolute
 """
